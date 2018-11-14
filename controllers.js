@@ -12,7 +12,7 @@ const timer = seconds =>
         clearInterval();
         resolve();
       } else {
-        displayCountdown(secondsLeft);
+        displayCountdown(secondsLeft)
       }
     }, 1000);
   });
