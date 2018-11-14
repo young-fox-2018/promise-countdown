@@ -1,4 +1,4 @@
-const { displayCountdown } = require("./views");
+const displayCountdown = require("./views");
 
 const timer = seconds =>
   new Promise((resolve, reject) => {
@@ -17,6 +17,4 @@ const timer = seconds =>
     }, 1000);
   });
 
-module.exports = {
-  timer
-};
+module.exports = timer
